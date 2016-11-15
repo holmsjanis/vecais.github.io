@@ -1,0 +1,344 @@
+@import url("../reset.css");
+
+/*************************************
+         -GV- Design Code
+**************************************/
+
+
+body {
+     background-image: url("../images/back2.png");
+ no-repeat center center fixed;
+	  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+}
+
+#transparency {
+    padding-top: 60px;
+}
+
+
+#wrapper {
+     background-color: white;
+    margin: auto;
+    width: 998px;
+   height: auto;
+      border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+
+#header {
+    background-image: url("../images/header.png");
+    float: center;
+margin: auto;
+    height: 100px;
+    width: 998px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: gray;
+   
+}
+
+#navigation {
+    float: center;
+margin: auto;
+    height: 43px;
+    width: 998px;
+    background: #FFCC33;
+        border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+#content {
+    float: left;
+ background-color: white;
+    width: 395px;
+    height: auto;
+    padding-left: 3px;
+
+}
+
+
+#leftcolumn {
+
+    background-color: white;
+    width: 290px;
+    float: left;
+    height: auto;
+padding-left: 3px;
+
+
+}
+
+
+
+
+#rightcolumn {
+
+     background-color: white;
+    width: 290px;
+    float: right;
+    height: auto;
+    padding-right: 3px;
+
+}
+
+#wraper-down{
+	
+    height: 10px;
+    width: 998px;
+       background-image: url("../images/footer_break.gif");
+
+ clear: both;
+ opacity: 0.01;
+ filter: alpha(opacity=7);
+    color: #FFFFFF
+    float: center;
+  
+}
+
+
+#footer {
+	
+margin: auto;
+    height: 50px;
+    width: 998px;
+       background-image: url("../images/footer.gif");
+    clear: both;
+    color: #FFFFFF;
+    float: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: right;
+    	float: center-left;
+   
+}
+
+/*************************************
+        Gallery panel
+**************************************/
+
+#leftcolumn-big {
+
+    background-color: white;
+    width: auto;
+    height: auto;
+padding-left: 80px;
+padding-top: 5px;
+padding-bottom: 5px;
+
+
+}
+
+
+/**********************************
+         CV Panel
+**********************************/
+#leftcolumn-cv {
+
+    background-color: white;
+  
+position: static;
+padding-top: 5px;
+padding-bottom: 5px;
+
+}
+
+t {
+ display: block;
+margin-left: 20px;
+font-size: 16px;
+position: relative;
+}
+
+h2 {
+text-align: center;
+}
+h3 {
+margin-left: 20px;
+font-size: 18px;
+}
+
+/************************************
+     Kontakti panel
+************************************/
+.panel-title-content-big-con {
+  width: 998px;
+    height: 33px;
+    border-bottom: 1px solid #ebebeb;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+
+    background-image: url("../images/bigpanel.png");
+
+}
+.info-con {
+
+
+background-color: white;
+height: auto;
+padding-left: 25px;
+font-size: 16px;
+
+
+
+}
+
+
+#leftcolumn-con {
+
+    background-color: white;
+    width: 290px;
+    float: left;
+    height: auto;
+text-align: -webkit-center;
+}
+
+
+
+/*************************************
+Anketa panel content
+**************************************/
+
+.info-ank {
+
+    padding-right: 70px;
+    margin: 10px;
+   
+       
+}
+.solid {
+     border-bottom: 2px solid #b5b5b5;
+}
+
+/*************************************
+Panel and title
+**************************************/
+
+.copyright {
+    text-align: center;
+    padding-top: 13px;
+    margin-top: -10px;
+}
+
+
+.info {
+
+background-color: white;
+height: auto;
+padding-left: 15px;
+margin: auto;
+
+
+}
+
+
+.info-big {
+
+background-color: white;
+height: auto;
+padding-left: 115px;
+margin: auto;
+
+
+}
+
+ 
+.panel-title {
+    width: 290px;
+    height: 33px;
+    border-bottom: 1px solid #ebebeb;
+    padding-top: 10px;
+    text-align: center;
+    background-image: url("../images/panel.png");
+    color: white;
+    font-size: 16px;
+
+}
+.panel-title-content {
+  width: 405px;
+    height: 33px;
+    border-bottom: 1px solid #ebebeb;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    background-image: url("../images/panelcontent.png");
+
+}
+
+.panel-title-content-big {
+  width: 998px;
+    height: 33px;
+    border-bottom: 1px solid #ebebeb;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+
+    background-image: url("../images/bigpanel.png");
+
+}
+
+
+/*************************************
+All for Navigation Bar
+**************************************/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+      border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+background-color:#4CAF50;
+
+    border-bottom-left-radius: 10px;
+ 
+    border-top-left-radius: 10px;
+}
+
+.active2 {
+background-color:#4CAF50;
+
+
+}
+
