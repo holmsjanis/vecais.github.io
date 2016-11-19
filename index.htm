@@ -3,6 +3,10 @@
 
 <head>
 <title>EDP-BLOOD.LV</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="./css/21687.css" />
 <link rel="shortcut icon" type="image/png" href="./images/favicon.ico"/>
 <meta charset="UTF-8">
@@ -10,33 +14,47 @@
 
 <body>
 
-<div id="navigation">       
-<ul>
-  <li><a class="active" href="/skolasdarbi">Sākums</a></li>
-  <li><a href="/forums">Forums</a></li>
-    <li><a href="./pages/galerija">Galerija</a></li>
-  <li><a  href="./pages/anketa">Anketa</a></li>
-  <li><a  href="./pages/cv">CV</a></li>
-    <li><a  href="./pages/kontakti">Kontakti</a></li>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
 
-</ul>
-</div>
-
-<div id="transparency"></div>
 
 <center><img src="./images/logo2.png"  style="width:600px;height:130px;"></center>
 <br />
 <br />
 
-<div id="wrapper">
+
 <br />
-        <div id="leftcolumn">
+        <div class="container-fluid text-center">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
 <div class="panel-title" >Mīļākās mašīnas</div>
 <img src="../skolasdarbi/masinas/1.jpg">
 <img src="../skolasdarbi/masinas/2.jpg">
 
         </div>
-        <div id="content">
+        <div class="col-sm-8 text-left">
  <div class="panel-title-content">Informācija</div>
 <div class="info">
 <br />
@@ -47,20 +65,22 @@ Lielu ieguldījumu automobiļu izplatīšanā deva ASV izgudrotājs un uzņēmē
 </div>
 
        </div>
-        <div id="rightcolumn">
+        <div class="col-sm-2 sidenav">
           
 <div class="panel-title">Motocikli</div>
 <img src="../skolasdarbi/masinas/3.jpg">
 <img src="../skolasdarbi/masinas/4.jpg">
 
         </div>
-<div id="wraper-down">
-</div>
-</div>
+          </div>
+  </div>
 
-        <div id="footer">
+
+
+        
+<footer class="container-fluid text-center">
          <p class="copyright">© BlooD.Lv 2016 All rights reserved. Designed by <a href="http://blood.lv/forums" target="_blank">-GV-</a></p>
-     </div>
+     </footer>
          
 </body>
 </html>
