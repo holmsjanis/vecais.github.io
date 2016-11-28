@@ -1,4 +1,5 @@
-@import url("../reset.css");
+@import url("../css/reset.css");
+
 
 /*************************************
          -GV- Design Code
@@ -6,7 +7,7 @@
 
 
 body {
-     background-image: url("../images/back2.png");
+     background-color: red;
  no-repeat center center fixed;
 	  -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -29,7 +30,7 @@ body {
 #wrapper {
      background-color: white;
     margin: auto;
-    width: 998px;
+    width: auto;
    height: auto;
       border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -42,7 +43,7 @@ body {
     float: center;
 margin: auto;
     height: 100px;
-    width: 998px;
+    width: auto;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color: gray;
@@ -53,7 +54,7 @@ margin: auto;
     float: center;
 margin: auto;
     height: 43px;
-    width: 998px;
+    width: auto;
     background: #FFCC33;
         border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -65,7 +66,7 @@ margin: auto;
 #content {
     float: left;
  background-color: white;
-    width: 395px;
+    width: auto;
     height: auto;
     padding-left: 3px;
 
@@ -75,7 +76,7 @@ margin: auto;
 #leftcolumn {
 
     background-color: white;
-    width: 290px;
+    width: auto;
     float: left;
     height: auto;
 padding-left: 3px;
@@ -89,7 +90,7 @@ padding-left: 3px;
 #rightcolumn {
 
      background-color: white;
-    width: 290px;
+    width: auto;
     float: right;
     height: auto;
     padding-right: 3px;
@@ -99,7 +100,7 @@ padding-left: 3px;
 #wraper-down{
 	
     height: 10px;
-    width: 998px;
+    width: auto;
        background-image: url("../images/footer_break.gif");
 
  clear: both;
@@ -115,7 +116,7 @@ padding-left: 3px;
 	
 margin: auto;
     height: 50px;
-    width: 998px;
+    width: auto;
        background-image: url("../images/footer.gif");
     clear: both;
     color: #FFFFFF;
@@ -176,7 +177,7 @@ font-size: 18px;
      Kontakti panel
 ************************************/
 .panel-title-content-big-con {
-  width: 998px;
+  width: auto;
     height: 33px;
     border-bottom: 1px solid #ebebeb;
     padding-top: 10px;
@@ -203,7 +204,7 @@ font-size: 16px;
 #leftcolumn-con {
 
     background-color: white;
-    width: 290px;
+    width: auto;
     float: left;
     height: auto;
 text-align: -webkit-center;
@@ -223,7 +224,7 @@ Anketa panel content
        
 }
 .solid {
-     border-bottom: 2px solid #b5b5b5;
+     border-bottom: 2px solid #2E64FE;
 }
 
 /*************************************
@@ -232,8 +233,10 @@ Panel and title
 
 .copyright {
     text-align: center;
-    padding-top: 13px;
-    margin-top: -10px;
+    padding-top: 30px;
+    margin-top: 1px;
+    background-color: black;
+    color: white;
 }
 
 
@@ -258,20 +261,27 @@ margin: auto;
 
 }
 
+.back {
+background-color: white;
+color: black;
+padding: inherit;
+margin-bottom: 3px;
+
+}
  
 .panel-title {
-    width: 290px;
+   
     height: 33px;
     border-bottom: 1px solid #ebebeb;
     padding-top: 10px;
     text-align: center;
-    background-image: url("../images/panel.png");
+    background-color: black;
     color: white;
     font-size: 16px;
 
 }
 .panel-title-content {
-  width: 405px;
+  width: auto;
     height: 33px;
     border-bottom: 1px solid #ebebeb;
     padding-top: 10px;
@@ -283,7 +293,7 @@ margin: auto;
 }
 
 .panel-title-content-big {
-  width: 998px;
+  width: auto;
     height: 33px;
     border-bottom: 1px solid #ebebeb;
     padding-top: 10px;
@@ -341,4 +351,55 @@ background-color:#4CAF50;
 
 
 }
+/*********************
 
+Images-media
+
+*********************/
+@media (min-width: 1901px) {
+  .banner{
+    max-width:450px
+  }
+}
+
+@media (max-width: 1900px) {
+  .banner{
+    max-width:307px
+  }
+}
+
+
+@media (max-width: 1280px) {
+  .banner{
+    max-width:286px
+  }
+}
+
+
+@media (max-width: 599px) {
+  .banner{
+    max-width:330px
+  }
+}
+
+/*********************
+
+Table CV
+
+*********************/
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
